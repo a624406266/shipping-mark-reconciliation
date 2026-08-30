@@ -1,0 +1,6 @@
+interface:
+  display_name: "箱唛原稿与PDF定稿核对"
+  short_description: "核对Excel箱唛原稿与供应商PDF定稿并生成差异报告"
+  default_prompt: "Use $shipping-mark-reconciliation to compare this original Excel shipping mark with the supplier PDF and create a Markdown discrepancy report."
+policy:
+  allow_implicit_invocation: true
